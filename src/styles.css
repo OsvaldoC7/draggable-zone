@@ -1,0 +1,41 @@
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  gap: 32px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: rgb(64, 64, 190);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(211, 82, 73);
+  margin: 8px;
+}
+
+.draggable {
+  display: flex;
+  justify-content: end;
+}
